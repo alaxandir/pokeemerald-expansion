@@ -20,7 +20,7 @@ tools\mapjson\
 *.fwjpnfont
 sound/**/*.bin
 sound/songs/midi/*.s
-tools\jsonproc\
+tools/jsonproc/
 tools/poryscript
 tools/agbcc
 *.map
