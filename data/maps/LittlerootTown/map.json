@@ -141,10 +141,10 @@
       "dest_warp_id": 1
     },
     {
-      "x": 7,
-      "y": 16,
+      "x": 25,
+      "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
+      "dest_map": "MAP_NEW_LAB",
       "dest_warp_id": 0
     }
   ],
@@ -178,24 +178,6 @@
     },
     {
       "type": "trigger",
-      "x": 8,
-      "y": 9,
-      "elevation": 3,
-      "var": "VAR_LITTLEROOT_TOWN_STATE",
-      "var_value": "3",
-      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger4"
-    },
-    {
-      "type": "trigger",
-      "x": 9,
-      "y": 9,
-      "elevation": 3,
-      "var": "VAR_LITTLEROOT_TOWN_STATE",
-      "var_value": "3",
-      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger5"
-    },
-    {
-      "type": "trigger",
       "x": 10,
       "y": 9,
       "elevation": 3,
@@ -211,24 +193,6 @@
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "3",
       "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger3"
-    },
-    {
-      "type": "trigger",
-      "x": 10,
-      "y": 2,
-      "elevation": 3,
-      "var": "VAR_LITTLEROOT_TOWN_STATE",
-      "var_value": "3",
-      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger0"
-    },
-    {
-      "type": "trigger",
-      "x": 11,
-      "y": 2,
-      "elevation": 3,
-      "var": "VAR_LITTLEROOT_TOWN_STATE",
-      "var_value": "3",
-      "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger1"
     }
   ],
   "bg_events": [
@@ -242,14 +206,6 @@
     },
     {
       "type": "sign",
-      "x": 6,
-      "y": 17,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LittlerootTown_EventScript_BirchsLabSign"
-    },
-    {
-      "type": "sign",
       "x": 7,
       "y": 8,
       "elevation": 3,
@@ -258,11 +214,19 @@
     },
     {
       "type": "sign",
-      "x": 12,
+      "x": 18,
       "y": 8,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LittlerootTown_EventScript_MaysHouseSign"
+    },
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LittlerootTown_EventScript_NewLabSign"
     }
   ]
 }
